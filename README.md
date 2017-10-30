@@ -21,3 +21,5 @@ Html 使用 stomp 方式连接。
 此时，运行程序中对应模块即可。
 
 vs项目中的依赖DLL，已放在DLL文件夹中。
+
+@zhangxiaobai

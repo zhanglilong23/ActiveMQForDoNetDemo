@@ -1,0 +1,15 @@
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\FrmClient.exe.config
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\FrmClient.exe
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\FrmClient.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.dll
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.xml
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.ActiveMQ.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\bin\Debug\Apache.NMS.ActiveMQ.xml
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.Form1.resources
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.Properties.Resources.resources
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.csproj.GenerateResource.Cache
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.exe
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmClient\obj\Debug\FrmClient.Subscribe.resources

@@ -1,0 +1,16 @@
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\FrmServer.exe.config
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\FrmServer.exe
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\FrmServer.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.ActiveMQ.dll
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.dll
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.xml
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.ActiveMQ.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\bin\Debug\Apache.NMS.ActiveMQ.xml
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.csprojResolveAssemblyReference.cache
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.Form1.resources
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.Properties.Resources.resources
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.csproj.GenerateResource.Cache
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.exe
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.pdb
+E:\GitHub\MyWork\ActiveMQForDoNetDemo\ActiveMQDemo\FrmServer\obj\Debug\FrmServer.Publish.resources

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>接收</title>
+</head>
+<body>
+  <div>
+    <div id="messages">
+    </div>
+    接收地址：
+    <input type="text" id="url" value="/topic/" style="width: 300px">
+    <input type="button" value="连接" id="conn">
+    <p></p>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/stomp.js"></script>
+  <script>
+    $(function () {
+      if (window.WebSocket) {
+        var client, destination;
+        $('#conn').click(function () {
+          var url = "ws://localhost:61614";
+          var user = "admin";
+          var passcode = "123456";
+          destination = $("#url").val();
+          client = Stomp.client(url);
+          client.connect(user, passcode, function (frame) {
+            console.log("connected to Stomp");
+            alert('connected to Stomp');
+            client.subscribe(destination, function (message) {
+              var p = document.createElement("p");
+              p.appendChild(document.createTextNode(message.body));
+              $("#messages").append(p);
+            });
+          });
+        });
+      }else{
+        alert('浏览器不支持WebSocket！');
+      }
+    })
+  </script>
+</body>
+
+</html>

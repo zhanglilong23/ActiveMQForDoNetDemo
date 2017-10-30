@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Send Message</title>
+</head>
+
+<body>
+  <div>
+    <form id="from_send">
+      <div>
+        发布地址：
+        <input type="text" id="url" value="/topic/" style="width: 300px" >
+        <input type="button" value="连接" id="conn">
+        <p></p>
+        发布内容：
+        <input type="text" id="msg" style="width: 300px" >
+        <input type="button" value="send" id="btn_send">
+      </div>
+  </div>
+  </form>
+
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/stomp.js"></script>
+  <script>
+    $(function () {
+      if (window.WebSocket) {
+        var client, destination;
+        var url = "ws://localhost:61614";
+        var user = "admin";
+        var passcode = "123456";
+        $("#conn").click(function () {
+          client = Stomp.client(url);
+          client.connect(user, passcode, function (frame) {
+            console.log("connected to Stomp");
+            alert('连接成功！');
+          });
+        });
+        $("#btn_send").click(function () {
+          destination = $("#url").val();
+          if (destination) {
+            var text = $("#msg").val();
+            text += ' ' + getDate();
+            client.send(destination, {}, text);
+            $("#msg").val('');
+            alert(text + ' 已发送！');
+          } else {
+            alert('发布地址不能为空！');
+          }
+        })
+      }
+    });
+
+    function getDate() {
+      var d = new Date(),
+        str = '';
+      str += d.getFullYear() + '-';
+      str += d.getMonth() + 1 + '-';
+      str += d.getDate() + ' ';
+      str += d.getHours() + ':';
+      str += d.getMinutes() + ':';
+      str += d.getSeconds();
+      return str;
+    };
+  </script>
+</body>
+
+</html>
